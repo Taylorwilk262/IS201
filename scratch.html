@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golf - Taylor Wilkinson</title>
+  <!-- Custom stylesheet created from scratch — no Bootstrap -->
+  <link rel="stylesheet" href="assets/css/scratch.css">
+</head>
+
+<body>
+
+  <!-- Fixed navigation back to professional pages -->
+  <div id="scratch-nav">
+    <a href="index.html" class="nav-brand">Taylor Wilkinson</a>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="#about-golf">About</a>
+    <a href="#video-div">Video</a>
+    <a href="#app-link-div">Scorecard App</a>
+  </div>
+
+  <!-- Hero div -->
+  <div id="hero-div">
+    <h1>⛳ The Game of Golf</h1>
+    <p class="subtitle">A passion for the course, the challenge, and the outdoors</p>
+    <!-- On-page anchor link -->
+    <a href="#about-golf" class="scroll-btn">Explore ↓</a>
+  </div>
+
+  <!-- Main content div -->
+  <div id="content-div">
+
+    <!-- On-page anchor target -->
+    <div class="golf-section" id="about-golf">
+      <h2>Why I Love Golf</h2>
+      <p>
+        Golf is more than just a sport to me — it's a mental challenge, a way to get outdoors,
+        and one of the best ways I know to clear my head after a long week. Whether I'm playing
+        a casual round with friends or competing against myself to beat my personal best,
+        every round teaches me something new.
+      </p>
+      <p>
+        I've been playing since high school and love everything about it — the strategy,
+        the precision, the patience, and the fact that no two rounds are ever the same.
+      </p>
+
+      <!-- Golf image -->
+      <img
+        src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=700&q=80"
+        alt="Beautiful golf course with green fairway"
+        class="golf-img"
+      >
+    </div>
+
+    <!-- Lists section: ordered list with unordered list nested inside -->
+    <div class="golf-section" id="tips">
+      <h2>My Top Golf Tips</h2>
+      <p>Here are the fundamentals I focus on every time I step on the course:</p>
+
+      <!-- Ordered list with nested unordered lists -->
+      <ol class="golf-list">
+        <li>
+          <strong>Master your grip</strong>
+          <ul class="nested-list">
+            <li>Neutral grip pressure — don't squeeze too tight</li>
+            <li>Overlap or interlocking grip — find what works for you</li>
+            <li>Check your grip before every shot</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Work on your short game</strong>
+          <ul class="nested-list">
+            <li>Chipping — practice bump-and-run shots</li>
+            <li>Pitching — control your distance</li>
+            <li>Putting — over 40% of strokes happen on the green</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Course management</strong>
+          <ul class="nested-list">
+            <li>Play to your strengths, not the hero shot</li>
+            <li>Know your distances with each club</li>
+            <li>Aim for the fat part of the green</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Mental game</strong>
+          <ul class="nested-list">
+            <li>Stay present — one shot at a time</li>
+            <li>Have a pre-shot routine</li>
+            <li>Forget bad shots quickly</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Favorite courses section -->
+    <div class="golf-section" id="courses">
+      <h2>Favorite Courses in Utah</h2>
+      <p>Utah has some incredible courses. Here are a few of my favorites:</p>
+      <ol class="golf-list">
+        <li>
+          <strong>Soldier Hollow Golf Course</strong> — Midway, UT
+          <ul class="nested-list">
+            <li>Stunning mountain views</li>
+            <li>Great variety of holes</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Thanksgiving Point Golf Club</strong> — Lehi, UT
+          <ul class="nested-list">
+            <li>Well-maintained fairways</li>
+            <li>Close to home</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Hobble Creek Golf Course</strong> — Springville, UT
+          <ul class="nested-list">
+            <li>Challenging layout</li>
+            <li>Beautiful canyon setting</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+  </div>
+  <!-- end content-div -->
+
+  <!-- YouTube Video div -->
+  <div id="video-div">
+    <h2>Watch &amp; Learn</h2>
+    <p>One of my favorite golf instruction videos — great tips for any level:</p>
+    <div class="video-wrapper">
+      <!-- Embedded YouTube video -->
+      <iframe
+        src="https://www.youtube.com/embed/387qBouMNgM"
+        title="Golf Tips for Beginners"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Tableau div -->
+  <div id="tableau-div">
+    <h2>Golf Data: PGA Tour Stats</h2>
+    <p>Interactive Tableau dashboard showing PGA Tour driving distance and accuracy stats:</p>
+    <div class='tableauPlaceholder' id='viz2' style='position: relative; margin: 0 auto; max-width: 800px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='PGA Tour Stats' src='https://public.tableau.com/static/images/PG/PGATourStats/Dashboard1/1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='PGATourStats_17/Dashboard1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement2 = document.getElementById('viz2');
+      var vizElement2 = divElement2.getElementsByTagName('object')[0];
+      vizElement2.style.width = '100%';
+      vizElement2.style.height = (divElement2.offsetWidth * 0.75) + 'px';
+      var scriptElement2 = document.createElement('script');
+      scriptElement2.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement2.parentNode.insertBefore(scriptElement2, vizElement2);
+    </script>
+  </div>
+
+  <!-- Web App Link div -->
+  <div id="app-link-div">
+    <h2>🏌️ Golf Scorecard App</h2>
+    <p>
+      Track your round hole by hole — enter your score, see your running total,
+      and find out how you finished vs. par.
+    </p>
+    <a href="app.html" class="app-btn">Open Scorecard App →</a>
+  </div>
+
+  <!-- Footer -->
+  <div id="scratch-footer">
+    <p>
+      &copy; 2025 Taylor Wilkinson &nbsp;|&nbsp;
+      <a href="index.html">Professional Site</a> &nbsp;|&nbsp;
+      <a href="resume.html">Resume</a> &nbsp;|&nbsp;
+      <a href="app.html">Golf App</a>
+    </p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Resume - Taylor Wilkinson</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8f9fa;
+      color: #2c3e50;
+    }
+
+    .navbar {
+      background-color: #1a2940 !important;
+    }
+    .navbar-brand {
+      font-family: 'Merriweather', serif;
+      color: #ffffff !important;
+    }
+    .nav-link {
+      color: #c8d6e5 !important;
+      font-weight: 600;
+    }
+    .nav-link:hover {
+      color: #4ecdc4 !important;
+    }
+
+    /* Resume Container */
+    .resume-wrapper {
+      max-width: 860px;
+      margin: 50px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      overflow: hidden;
+    }
+
+    /* Resume Header */
+    .resume-header {
+      background: linear-gradient(135deg, #1a2940, #2c4a6e);
+      color: white;
+      padding: 40px 50px 30px;
+    }
+    .resume-header h1 {
+      font-family: 'Merriweather', serif;
+      font-size: 2.2rem;
+      margin-bottom: 6px;
+    }
+    .resume-header .contact-line {
+      color: #4ecdc4;
+      font-size: 0.95rem;
+    }
+    .resume-header .contact-line a {
+      color: #4ecdc4;
+      text-decoration: none;
+    }
+    .resume-header .contact-line a:hover {
+      color: white;
+    }
+
+    /* Resume Body */
+    .resume-body {
+      padding: 40px 50px;
+    }
+
+    /* Section headings */
+    .resume-section-title {
+      font-family: 'Merriweather', serif;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #1a2940;
+      border-bottom: 3px solid #4ecdc4;
+      padding-bottom: 6px;
+      margin-top: 36px;
+      margin-bottom: 18px;
+    }
+
+    /* Job entries */
+    .job-entry {
+      margin-bottom: 24px;
+    }
+    .job-title {
+      font-weight: 700;
+      font-size: 1rem;
+      color: #1a2940;
+      margin-bottom: 2px;
+    }
+    .job-meta {
+      font-size: 0.88rem;
+      color: #7f8c9a;
+      margin-bottom: 8px;
+    }
+    .job-meta span {
+      margin-right: 16px;
+    }
+    .job-meta .company {
+      color: #4ecdc4;
+      font-weight: 600;
+    }
+    ul.job-bullets {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+    ul.job-bullets li {
+      font-size: 0.95rem;
+      color: #444;
+      margin-bottom: 5px;
+      line-height: 1.6;
+    }
+
+    /* Education */
+    .edu-entry {
+      margin-bottom: 20px;
+    }
+    .edu-school {
+      font-weight: 700;
+      color: #1a2940;
+    }
+    .edu-detail {
+      font-size: 0.93rem;
+      color: #555;
+    }
+
+    /* Skills */
+    .skill-badge {
+      display: inline-block;
+      background-color: #eaf4f4;
+      color: #1a2940;
+      border: 1px solid #4ecdc4;
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.88rem;
+      margin: 4px;
+      font-weight: 600;
+    }
+
+    /* Print button */
+    .print-btn {
+      background-color: #4ecdc4;
+      color: #1a2940;
+      border: none;
+      padding: 10px 28px;
+      font-weight: 700;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .print-btn:hover {
+      background-color: #38b2ac;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #1a2940;
+      color: #c8d6e5;
+      padding: 24px 0;
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #4ecdc4;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand" href="index.html">Taylor Wilkinson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#tableau">Tableau</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container py-4 text-center">
+    <a href="index.html" class="print-btn"><i class="fas fa-arrow-left mr-2"></i>Back to Home</a>
+  </div>
+
+  <div class="resume-wrapper">
+
+    <!-- Header -->
+    <div class="resume-header">
+      <h1>Taylor Wilkinson</h1>
+      <div class="contact-line">
+        <a href="tel:8013182555">(801) 318-2555</a> &nbsp;·&nbsp;
+        <a href="mailto:tawilk2@byu.edu">tawilk2@byu.edu</a> &nbsp;·&nbsp;
+        <a href="https://www.linkedin.com/in/taylor-wilkinson-348448161" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="resume-body">
+
+      <!-- Education -->
+      <h2 class="resume-section-title">Education</h2>
+
+      <div class="edu-entry">
+        <div class="edu-school">Brigham Young University &mdash; Provo, UT</div>
+        <div class="edu-detail">Pre-Business, applying to the Finance program &nbsp;|&nbsp; January 2026 &ndash; Present</div>
+      </div>
+
+      <div class="edu-entry">
+        <div class="edu-school">Utah Valley University &mdash; Orem, UT</div>
+        <div class="edu-detail">Associate Degree in Business Management &nbsp;|&nbsp; GPA: 3.43 &nbsp;|&nbsp; Aug 2022 &ndash; May 2025</div>
+      </div>
+
+      <!-- Work Experience -->
+      <h2 class="resume-section-title">Work Experience</h2>
+
+      <div class="job-entry">
+        <div class="job-title">Project Engineer</div>
+        <div class="job-meta">
+          <span class="company">Pikus Concrete Contracting LLC</span>
+          <span>Lehi, UT</span>
+          <span>Mar 2025 &ndash; Present</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Perform all concrete pre-pour checklists to ensure proper placement of rebar, blockouts, and cables.</li>
+          <li>Directed budgets and forecasting for a $12 million project.</li>
+          <li>Submit RFIs to the general contractor.</li>
+          <li>Estimate and perform takeoffs for the amount of concrete needed for each pour.</li>
+          <li>Read plans and perform layout in the field to ensure proper placement of columns, walls, decks, and slab on grade concrete.</li>
+        </ul>
+      </div>
+
+      <div class="job-entry">
+        <div class="job-title">Project Coordinator</div>
+        <div class="job-meta">
+          <span class="company">Tile Ram &mdash; Dust Free Demolition</span>
+          <span>Alpine, UT</span>
+          <span>Sep 2024 &ndash; Feb 2025</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Managed all inbound client communications, gave prompt responses and maintained high client satisfaction.</li>
+          <li>Prepared estimates and quotes for tile removal and demolition projects.</li>
+          <li>Coordinated schedules for 5 demolition crews and 2 estimators, guaranteeing efficient project timelines and on-time job completion.</li>
+          <li>Maintained a sales funnel log tracking all leads, quotes, and job outcomes to monitor pipeline efficiency.</li>
+        </ul>
+      </div>
+
+      <div class="job-entry">
+        <div class="job-title">Lead Surgical Assistant</div>
+        <div class="job-meta">
+          <span class="company">Utah Valley Oral Surgery (Dr. Rasmussen)</span>
+          <span>Orem, UT</span>
+          <span>Sep 2022 &ndash; Aug 2024</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Verified and organized surgical supplies to ensure full readiness for each procedure.</li>
+          <li>Drew all anesthesia medications for the day and kept an active log of what was used and discarded.</li>
+          <li>Assisted Dr. Rasmussen in surgery.</li>
+          <li>Led surgical consultations for cleft, orthognathic, implant, and wisdom teeth surgeries.</li>
+        </ul>
+      </div>
+
+      <!-- Volunteer -->
+      <h2 class="resume-section-title">Volunteer Experience</h2>
+
+      <div class="job-entry">
+        <div class="job-title">Full-Time Ambassador</div>
+        <div class="job-meta">
+          <span class="company">Church of Jesus Christ of Latter-Day Saints</span>
+          <span>Orlando, FL</span>
+          <span>Aug 2021 &ndash; Apr 2022</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Served the people of Orlando, Florida through various community service projects.</li>
+          <li>Led training meetings and managed responsibilities within my district.</li>
+        </ul>
+      </div>
+
+      <div class="job-entry">
+        <div class="job-title">Sunday School President</div>
+        <div class="job-meta">
+          <span class="company">Church of Jesus Christ of Latter-Day Saints</span>
+          <span>Provo, UT</span>
+          <span>June 2025 &ndash; Present</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Oversee all teachings for the ward and prepare and present lessons on gospel topics.</li>
+          <li>Provide training on effective teaching methods.</li>
+        </ul>
+      </div>
+
+      <!-- Skills -->
+      <h2 class="resume-section-title">Skills &amp; Achievements</h2>
+
+      <div class="mb-3">
+        <span class="skill-badge">Microsoft Excel</span>
+        <span class="skill-badge">Microsoft Word</span>
+        <span class="skill-badge">Microsoft Outlook</span>
+        <span class="skill-badge">Bluebeam</span>
+        <span class="skill-badge">PlanSwift</span>
+        <span class="skill-badge">Cost Estimating</span>
+        <span class="skill-badge">Budget Forecasting</span>
+        <span class="skill-badge">Business Communication</span>
+        <span class="skill-badge">Leadership</span>
+        <span class="skill-badge">Project Coordination</span>
+        <span class="skill-badge">Customer Service</span>
+        <span class="skill-badge">Data Tracking</span>
+      </div>
+
+      <ul class="job-bullets mt-3">
+        <li><strong>Student Body President</strong> — Lone Peak High School (2020–2021)</li>
+        <li><strong>Eagle Scout</strong> — Boy Scouts of America</li>
+        <li>Associate GPA: 3.43 &nbsp;|&nbsp; Strong foundation in business, math, and communication</li>
+      </ul>
+
+    </div>
+    <!-- end resume-body -->
+
+  </div>
+  <!-- end resume-wrapper -->
+
+  <footer>
+    <p>&copy; 2025 Taylor Wilkinson &nbsp;|&nbsp; <a href="index.html">Back to Home</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
